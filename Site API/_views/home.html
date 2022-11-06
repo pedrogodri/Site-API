@@ -1,0 +1,15 @@
+<div class="card" style="width: 18rem; margin-top: 20px;">
+    <img src="/_img/logoCEP.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Verificador de CEP</h5>
+        <p class="card-text">Foi desenvolvido um verificador de CEP através de uma API.</p>
+        <button class="btn btn-dark" id="btn-cep">Entrar</button>
+    </div>
+</div>
+
+<script>
+    $('#btn-cep').click((e) => {
+        e.preventDefault();
+        getPagina('verificadorCEP.html', 'main');
+    });
+</script>
