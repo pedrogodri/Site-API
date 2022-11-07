@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+/* Index */
+
 #titulo-topo {
     margin-left: 13px;
+}
+
+/* Verificador de CEP */
+#label-cep {
+    padding-top: 10px;
+}
+
+#form-info {
+    padding-top: 10px;
 }
