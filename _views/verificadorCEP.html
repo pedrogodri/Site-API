@@ -33,7 +33,13 @@
         </div>
     </form>
 
-    <a href="descobrir-cep.html">Não sabe seu CEP?</a>
+    <button type="button" class="btn btn-secondary btn-sm" id="btn-saberCEP">Descobrir CEP</button>
 </div>
 
 <script src="/_js/consultaCEP.js"></script>
+<script>
+    $('#btn-saberCEP').click((e) => {
+        e.preventDefault();
+        getPagina('descobrirCEP.html', 'main');
+    });
+</script>

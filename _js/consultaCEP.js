@@ -6,18 +6,22 @@ let bairro = document.querySelector('#bairro');
 
 cep.value = '01001000';
 
-cep.addEventListener('blur', function(e){
+cep.addEventListener('blur', function (e) {
     let cep = e.target.value;
     let script = document.createElement('script');
-    script.src = 'https://viacep.com.br/ws/'+cep+'/json/?callback=popularForm';
+    script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=popularForm';
     document.body.appendChild(script);
 });
 
 function popularForm(resposta) {
 
-    if("erro" in resposta) {
-        alert("CEP não encontrado");
-        return;
+    if ("erro" in resposta) {
+        alert("CEP errado");
+        var cep = $('#cep').val("");
+        var cidade = $('#cidade').val("");
+        var estado = $('#estado').val("");
+        var rua = $('#rua').val("");
+        var bairro = $('#bairro').val("");
     }
 
     console.log(resposta);
