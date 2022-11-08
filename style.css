@@ -18,3 +18,10 @@
 #btn-saberCEP {
     margin-top: 19px;
 }
+
+#form-cep {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}

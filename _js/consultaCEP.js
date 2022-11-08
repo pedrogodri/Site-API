@@ -17,11 +17,11 @@ function popularForm(resposta) {
 
     if ("erro" in resposta) {
         alert("CEP errado");
-        var cep = $('#cep').val("");
-        var cidade = $('#cidade').val("");
-        var estado = $('#estado').val("");
-        var rua = $('#rua').val("");
-        var bairro = $('#bairro').val("");
+        // var cep = $('#cep').val("");
+        // var cidade = $('#cidade').val("");
+        // var estado = $('#estado').val("");
+        // var rua = $('#rua').val("");
+        // var bairro = $('#bairro').val("");
     }
 
     console.log(resposta);

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style.css">
 
-<div class="conainer">
+<div class="container">
     <form class="row g-3" id="form-cep">
         <div class="col-12" id="div-cep">
             <label for="cep" class="form-label">CEP</label>
@@ -31,9 +31,12 @@
             <label for="complemento" class="form-label">Complemento</label>
             <input type="text" class="form-control" name="complemento" id="complemento">
         </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-saberCEP">Descobrir CEP</button>
+        </div>
     </form>
 
-    <button type="button" class="btn btn-secondary btn-sm" id="btn-saberCEP">Descobrir CEP</button>
+
 </div>
 
 <script src="/_js/consultaCEP.js"></script>
