@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="/_css/style.css">
 <link rel="stylesheet" href="/_css/stylePoke.css">
 
+
 <div id="img-pokemon">
-    <img src="#" alt="pokemon" class="pokemon-image">
+    <img src="" alt="" class="pokemon-image">
 </div>
 
 <h1 class="pokemon-data">
@@ -16,11 +17,31 @@
 
 <div class="buttons">
     <button type="button" class="button btn btn-prev btn-dark">&lt; Prev</button>
-    <button type="button" class="button btn btn-next btn-dark">&lt; Prev</button>
+    <button type="button" class="button btn btn-next btn-dark">Next &gt</button>
 </div>
 
 <div id="img-pokedex">
     <img src="/_img/pokedex.png" alt="pokedex" class="pokedex">
 </div>
 
+<div id="myModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Pokemon não encontrado</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Tente novamente<br>Treiandor pokemon!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="/_js/buscaPokemon.js"></script>

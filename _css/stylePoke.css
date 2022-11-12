@@ -40,7 +40,7 @@ main {
   color: #aaa;
   top: 54%;
   right: 38% ;
-  font-size: clam(8px, 5vw, 25px);
+  font-size: 30px;
 }
 
 .pokemon-name {
