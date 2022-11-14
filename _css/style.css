@@ -12,6 +12,11 @@
     margin-left: 13px;
 }
 
+/* Home */
+.card {
+    margin: 10px;
+}
+
 /* Verificador de CEP */
 #label-cep {
     padding-top: 10px;
